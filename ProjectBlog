@@ -1,9 +1,11 @@
+Thurs 2 Apr 15
+-Aoife & Derek: Meeting to discuss Documentation and Progress
 
 Sat 28 Mar 15
 -Tom: have the database working for Profile, trying to get updates to work according to plan. Created a MVC solution, then in the identity model added the extra fields needed. 
 by adding a class in the controller the table can be modified to our needs.
-Derek working on Bookings
-Aoife working on Prototype UI
+-Derek working on Bookings
+-Aoife working on Prototype UI
 
 Work In Progress: Tom&Derek- Database build and Sample, Aoife - Prototype interfaces
 
