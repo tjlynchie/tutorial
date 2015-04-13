@@ -1,0 +1,16 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<span style="float:right">
+    @if (Request.IsAuthenticated)
+    {
+        <text>Welcome <b class="active_user">@Context.User.Identity.Name</b>!
+        [ @Html.ActionLink("Log Off", "LogOff", "Account") ]</text>
+    }
+    else
+    {
+        @:[ @Html.ActionLink("Log On", "LogOn", "Account") ]
+}
+</span>
+
+

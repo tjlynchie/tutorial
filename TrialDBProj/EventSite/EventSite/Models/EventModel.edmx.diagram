@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e688d288e99b4607af1b7016d080c633" Name="Diagram1">
+        <EntityTypeShape EntityType="EventDatabaseModel.C__RefactorLog" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EventDatabaseModel.Event" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EventDatabaseModel.EventService" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EventDatabaseModel.EventUser" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EventDatabaseModel.Service" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <AssociationConnector Association="EventDatabaseModel.FK_dbo_Event_dbo_EventUser_EventUserId" ManuallyRouted="false" />
+        <AssociationConnector Association="EventDatabaseModel.FK_dbo_EventService_dbo_Event_EventId" ManuallyRouted="false" />
+        <AssociationConnector Association="EventDatabaseModel.FK_dbo_EventService_dbo_Service_ServiceId" ManuallyRouted="false" />
+        <AssociationConnector Association="EventDatabaseModel.FK_dbo_Service_dbo_EventUser_EventUserId" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

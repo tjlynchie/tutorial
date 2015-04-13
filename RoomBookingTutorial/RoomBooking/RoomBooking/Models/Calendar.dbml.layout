@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Calendar">
+  <DataContextMoniker Name="/CalendarDataContext" />
+  <nestedChildShapes>
+    <classShape Id="7ff736bb-c5c6-4933-815c-c9ad2f236956" absoluteBounds="3.5, 0.875, 2, 1.9631982421874998">
+      <DataClassMoniker Name="/CalendarDataContext/Event" />
+      <nestedChildShapes>
+        <elementListCompartment Id="02ac2ed8-26fd-489e-8326-104b7af08f31" absoluteBounds="3.515, 1.335, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="4494564c-55c0-486f-aef0-395a38b54dd7" absoluteBounds="0.75, 5, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/CalendarDataContext/aspnet_User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f4e69127-dc4b-4c6f-a7cc-cc39811ac90b" absoluteBounds="0.765, 5.46, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="d51a44bf-c693-4da7-9816-63ee0764cdd5" absoluteBounds="0.75, 1.25, 2, 1.1939925130208338">
+      <DataClassMoniker Name="/CalendarDataContext/Room" />
+      <nestedChildShapes>
+        <elementListCompartment Id="78bb9add-c33d-41f4-ac8d-28a14eb05388" absoluteBounds="0.765, 1.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 6.17390055338542); (4.5 : 6.17390055338542); (4.5 : 2.8381982421875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CalendarDataContext/aspnet_User/aspnet_User_Event" />
+      <nodes>
+        <classShapeMoniker Id="4494564c-55c0-486f-aef0-395a38b54dd7" />
+        <classShapeMoniker Id="7ff736bb-c5c6-4933-815c-c9ad2f236956" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 1.84699625651042); (3.5 : 1.84699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/CalendarDataContext/Room/Room_Event" />
+      <nodes>
+        <classShapeMoniker Id="d51a44bf-c693-4da7-9816-63ee0764cdd5" />
+        <classShapeMoniker Id="7ff736bb-c5c6-4933-815c-c9ad2f236956" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

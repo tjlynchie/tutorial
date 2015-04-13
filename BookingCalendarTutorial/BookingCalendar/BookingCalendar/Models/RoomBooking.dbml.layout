@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="RoomBooking">
+  <DataContextMoniker Name="/RoomBookingDataContext" />
+  <nestedChildShapes>
+    <classShape Id="0c9a3e7e-9d2e-4420-83fb-7441a230ed01" absoluteBounds="3.625, 3.75, 2, 1.3862939453124996">
+      <DataClassMoniker Name="/RoomBookingDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2810d760-1aff-4df9-a9ca-4b42df8bc17f" absoluteBounds="3.64, 4.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e6b0be3a-921b-4d40-908e-1fa47de65322" absoluteBounds="1.25, 1.75, 2, 1.9631982421875">
+      <DataClassMoniker Name="/RoomBookingDataContext/Event" />
+      <nestedChildShapes>
+        <elementListCompartment Id="04c88889-479f-4105-90e6-6ebc44fb73c9" absoluteBounds="1.2650000000000001, 2.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="01704325-6a82-4cc1-ac42-c61d27c1fa87" absoluteBounds="4.5, 2, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/RoomBookingDataContext/Room" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3c8254e5-d353-4f48-8fd6-d6a4966c460f" absoluteBounds="4.515, 2.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

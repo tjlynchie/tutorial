@@ -1,0 +1,20 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div class="head_line">
+        <div class="head_inner">
+            Booking Calendar in ASP.NET
+            @RenderSection("headerContent", false)
+        </div>
+    </div>
+    <div class="page">
+        <div id="main">
+            @RenderBody()
+        </div>
+    </div>
+</body>
+</html>

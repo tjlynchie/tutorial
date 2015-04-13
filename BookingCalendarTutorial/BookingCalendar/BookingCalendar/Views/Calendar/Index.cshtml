@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "Booking Calendar";
+}
+
+@section headerContent{
+    @Html.Partial("_LogOnPartial")
+}
+
+<div id="calendar">
+    @Html.Raw(Model.Render())
+</div>

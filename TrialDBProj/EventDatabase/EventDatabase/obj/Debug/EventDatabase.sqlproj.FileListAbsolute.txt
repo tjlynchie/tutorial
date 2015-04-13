@@ -1,0 +1,9 @@
+C:\MastersInWebTech\EnterpriseFrameworks\Event_U_Ally\TrialDBProj\EventDatabase\EventDatabase\bin\Debug\EventDatabase.dacpac
+C:\MastersInWebTech\EnterpriseFrameworks\Event_U_Ally\TrialDBProj\EventDatabase\EventDatabase\bin\Debug\EventDatabase.dll
+C:\MastersInWebTech\EnterpriseFrameworks\Event_U_Ally\TrialDBProj\EventDatabase\EventDatabase\bin\Debug\EventDatabase.pdb
+C:\MastersInWebTech\EnterpriseFrameworks\Event_U_Ally\TrialDBProj\EventDatabase\EventDatabase\obj\Debug\EventDatabase.dll
+C:\MastersInWebTech\EnterpriseFrameworks\Event_U_Ally\TrialDBProj\EventDatabase\EventDatabase\obj\Debug\EventDatabase.pdb
+C:\MastersInWebTech\EnterpriseFrameworks\Event_U_Ally\TrialDBProj\EventDatabase\EventDatabase\obj\Debug\Model.xml
+C:\MastersInWebTech\EnterpriseFrameworks\Event_U_Ally\TrialDBProj\EventDatabase\EventDatabase\obj\Debug\refactor.xml
+C:\MastersInWebTech\EnterpriseFrameworks\Event_U_Ally\TrialDBProj\EventDatabase\EventDatabase\obj\Debug\postdeploy.sql
+C:\MastersInWebTech\EnterpriseFrameworks\Event_U_Ally\TrialDBProj\EventDatabase\EventDatabase\obj\Debug\predeploy.sql

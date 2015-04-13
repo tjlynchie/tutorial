@@ -1,0 +1,61 @@
+﻿@{
+    ViewBag.Title = "Log On";
+}
+@model BookingCalendar.Models.LogOnModel
+
+@Html.ValidationSummary(true, "Login was unsuccessful. Please correct the errors and try again.")
+
+<div id="header">
+    <div id="title">
+        <h1>Authorization</h1>
+    </div>
+</div>
+
+@using (Html.BeginForm())
+{
+    <div>
+        <div>
+            <h2>Please enter your username and password</h2>
+            <div>
+
+                <div class="editor-label">
+                    @Html.LabelFor(m => m.UserName)
+                </div>
+                <div class="editor-field">
+                    @Html.TextBoxFor(m => m.UserName)
+                    @Html.ValidationMessageFor(m => m.UserName)
+                </div>
+
+                <div class="editor-label">
+                    @Html.LabelFor(m => m.Password)
+                </div>
+                <div class="editor-field">
+                    @Html.PasswordFor(m => m.Password)
+                    @Html.ValidationMessageFor(m => m.Password)
+                </div>
+
+                <div class="editor-label">
+                    @Html.CheckBoxFor(m => m.RememberMe)
+                    @Html.LabelFor(m => m.RememberMe)
+                </div>
+
+                <p style="clear:both">
+                    <input type="submit" id="login" value="Log On" />
+                </p>
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+}
+
+
+<style>
+    .page {
+        width: 360px;
+        background-color: #efeeef;
+        padding: 10px 30px;
+        font-family: "Segoe UI", Verdana, Helvetice, Sans-Serif;
+        padding-bottom: 15px;
+    }
+</style>
+
