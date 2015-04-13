@@ -1,0 +1,41 @@
+Thurs 2 Apr 15
+-Aoife & Derek: Meeting to discuss Documentation and Progress
+
+Sat 28 Mar 15
+-Tom: have the database working for Profile, trying to get updates to work according to plan. Created a MVC solution, then in the identity model added the extra fields needed. 
+by adding a class in the controller the table can be modified to our needs.
+-Derek working on Bookings
+-Aoife working on Prototype UI
+
+Work In Progress: Tom&Derek- Database build and Sample, Aoife - Prototype interfaces
+
+Sat 21 Mar 15
+-Discussed Wireframes together and with Vikas.
+  -Home Page: No changes, carousel for the form good idea, prompt to sign in after all the form is filled
+  -Profile Page: No time/date on banner, keep general user profile info on the left, add tabs for services, map?
+-Nailed down DataBase tables for 4 categories:
+  -UserProfile: ID (unique), Email, Firstname, Lastname, Companyname, Username, Phone, Adressline 1,2,3, Town, County, Usertype, no.of services, no.of events, Biog, ImageURL, www
+  -Service: ID (unique), Description, Category, Starttime, Endtime, Startdate, Enddate
+  -Event: ID (unique), Description, Category, User ID, Starttime, Endtime, Startdate, Enddate, no.of attendees,
+  -EventService: ID (not unique), Event ID, Service ID
+  
+Sat 14 Mar 15
+- Derek - flow diagram and use cases for organise event and register
+
+Sat 7 Mar 15
+- Detailed User Requirements, Use Case Scenario walk-throughs
+
+Sat 28 Feb 15
+-Delegated Roles for Project assembly: Derek&Tom - Databases/booking sample structures, Aoife - Wireframes/UI 
+
+ Sat 21 Feb 15
+-Submitted Requirements Spec on Friday 
+  
+  Sat 14 Feb 15
+- Settled on the name "Event-U-Ally"
+- Delegated roles for requirements Specification Doc: Derek-Gannt Chart, Tom&Aoife- write high level requirements
+  
+  Sat 7 Feb 15
+- Discussed Project ideas, settled on event co-ordination site
+- Main categories and user requirements: Users(punters), Services(venues, bands, sole traders) and Events
+
