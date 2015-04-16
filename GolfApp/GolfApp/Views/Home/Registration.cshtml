@@ -1,0 +1,26 @@
+﻿@model GolfApp.Models.GolfRegistration
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Registration</title>
+</head>
+<body>
+    <div>
+        @using (Html.BeginForm())
+        {
+            <p>Firstname: @Html.TextBoxFor(x => x.Firstname)</p>
+            <p>Lastname: @Html.TextBoxFor(x => x.Lastname)</p>
+            <p>Handicap: @Html.TextBoxFor(x => x.Handicap)</p>
+            <p>GUI Num: @Html.TextBoxFor(x => x.GUINumber)</p>
+            <input type="submit" value="Save" />
+        } 
+    </div>
+</body>
+</html>
